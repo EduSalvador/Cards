@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3D4043;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* CONTAINER */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    height: 100vh;
+}
+
+/* BASIC CARD */
+
+
+.basic-card {
+    background-color: #EBEBEB;
+    padding: 35px;
+    border-radius: 10px;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.title-basic-card button {
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    padding: 3px 8px;
+    background-color: transparent;
+    font-size: 12px;
+}
+
+.title-basic-card h1 {
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.content-basic-card {
+    margin: 30px 0;
+    padding: 20px 0;
+    border-top: 1px solid #9696963b;
+    border-bottom: 1px solid #9696963b;
+}
+
+.text-basic-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.text-basic-card img{
+    width: 15px;
+    margin-right: 10px;
+}
+
+.text-basic-card p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #0c0c0cc5;
+}
+
+.price-basic-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-basic-card p {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.price-basic-card span {
+    font-weight: normal;
+    color: #757575
+}
+
+.price-basic-card button {
+    background-color: black;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.price-basic-card button:hover {
+    transform: scale(1.05);
+}
+
+/* UNLIMITED CARD */
+
+.unlimited-card {
+    background-color: #131313;
+    padding: 35px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.title-unlimited-card button {
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    padding: 3px 8px;
+    background-color: transparent;
+    font-size: 12px;
+    color: white;
+}
+
+.title-unlimited-card h1 {
+    font-size: 30px;
+    margin: 15px 0;
+    color: white;
+}
+
+.content-unlimited-card {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+    padding: 20px 0;
+    border-top: 1px solid #9696963b;
+    border-bottom: 1px solid #9696963b;
+    color: white;
+}
+
+.content-text-unlimited-card {
+    display: flex;
+    align-items: center;
+}
+
+.content-text-unlimited-card p{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.text-unlimited-card img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.price-unlimited-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-unlimited-card p {
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+}
+
+.price-unlimited-card span {
+    font-weight: normal;
+    color: #757575
+}
+
+.price-unlimited-card button {
+    background-color: #D0FF41;
+    color: black;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.price-unlimited-card button:hover {
+    transform: scale(1.05);
+}
+
