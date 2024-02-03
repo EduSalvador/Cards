@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body {
+    background-color: #121418;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Altura mínima */
+    width: 100%;
+    padding: 20px; /* Adiciona algum espaço interno */
+}
+
+
+.title-section {
+    max-width: 500px;
+    color: #F9FBF5;
+    margin: 30px;
+}
+
+.title-section h2 {
+    color: #a85cff;
+    font-size: 1.3rem;
+}
+
+.title-section h1 {
+    font-size: 2rem;
+    margin: 5px 0;
+}
+
+.title-section p {
+    font-size: 1.1rem;
+    color: rgb(199, 199, 199);
+}
+
+.cards-part {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px auto;
+}
+
+.card {
+    background-color: #1F2427;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    width: 330px;
+    height: 630px;
+    transition: 0.4s ease-in;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+}
+
+.title > h1 {
+    color: #F9FBF5;
+    font-size: 1.8rem;
+}
+
+.title > p {
+    color: rgb(199, 199, 199);
+    font-size: 0.8rem;
+}
+
+.price {
+    margin-top: 20px;
+}
+
+.price > h2 {
+    color: rgba(182, 182, 182, 0.719);
+    font-size: 1.3rem;
+    position: relative;
+    display: inline-block;
+}
+
+.price > h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    border-top: 0.5px solid rgba(182, 182, 182); /* Ajuste a espessura da linha aqui */
+    transform: translateY(-50%);
+}
+
+.price > h1 {
+    color: #a85cff;
+    font-size: 1.7rem;
+    margin: 3px auto;
+}
+
+.price > p {
+    color: rgb(161, 161, 161);
+}
+
+.text {
+    text-align: left;
+    margin: 20px 20px;
+}
+
+.content-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.content-text img {
+    width: 18px;
+    height: 18px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.content-text p {
+    margin: 5px 0;
+    color: rgb(199, 199, 199);
+}
+
+.btn-choice button {
+    width: 90%;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    background-color: #a85cff;
+    color: #F9FBF5;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn-choice button:hover {
+    background-color: #8e2bff;
+}
